@@ -1,3 +1,5 @@
+-- Implementation of a Point as a Monad
+
 newtype Pkt a = Pkt (a, a)
 
 instance (Show a) => Show (Pkt a) where
